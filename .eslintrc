@@ -1,0 +1,14 @@
+{
+  "extends": ["@react-native-community", "plugin:react/jsx-runtime", "plugin:react-hooks/recommended"],
+  "rules": {
+    "quotes": [2, "double", { "avoidEscape": true }],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto",
+        "bracketSameLine": true
+      }
+    ],
+    "react-native/no-inline-styles": "off"
+  }
+}

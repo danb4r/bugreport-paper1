@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Myapp bugreport",
+    "description": "Myapp bugreport",
+    "slug": "Myapp",
+    "privacy": "hidden",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "scheme": "myapp.bugreport",
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": ""
+      }
+    },
+    "plugins": ["expo-localization"],
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "name": "Myapp bugreport",
+      "shortName": "Myapp"
+    }
+  }
+}
